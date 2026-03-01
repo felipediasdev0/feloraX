@@ -1099,14 +1099,6 @@
     </div>
   </section>
 
-  <!-- Seção de Projetos com Carrossel -->
-  <section id="projetos">
-    <div class="container">
-      <div class="reveal">
-        <div class="section-label">Portfólio</div>
-        <h2 class="section-title">Projetos realizados</h2>
-        <p class="section-desc">Conheça alguns dos sistemas e sites que desenvolvemos para venda.</p>
-      </div>
 
       <div class="projects-grid" id="projectsGrid">
         <!-- Os cards serão inseridos via JavaScript -->
@@ -1243,21 +1235,11 @@
   </footer>
 
   <script>
-    // Dados dos projetos com múltiplas imagens
-    const projectsData = [
-      {
-        title: "Sistema de Gestão Empresarial",
-        description: "Plataforma completa para controle de bate ponto, gerenciamento de funcionários e comunicação interna.",
-        tags: ["Node.js", "Python"],
-        images: [
-          "img/patronlogin.png",
-          "img/batepontopatron.png",
-          "img/criarpatron.png",
-          "img/user.png"
-        ]
-      }
-    ];
 
+ // Dados dos projetos com múltiplas imagens
+    const projectsData = [
+      
+    ];
     // Função para criar um card de projeto com carrossel
     function createProjectCard(project) {
       const card = document.createElement('div');
